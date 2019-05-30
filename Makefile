@@ -1,5 +1,5 @@
 PKG_NAME := freezegun
-URL = https://files.pythonhosted.org/packages/49/38/5ee82400154a8703abfbac94936948fb71426f8a6154840297fcb899f1da/freezegun-0.3.11.tar.gz
+URL = https://files.pythonhosted.org/packages/da/df/029966dd13982a043df910996bd3c0d0221b3add47fcd44fd8c3f44f3152/freezegun-0.3.12.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
