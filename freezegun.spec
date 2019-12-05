@@ -4,7 +4,7 @@
 #
 Name     : freezegun
 Version  : 0.3.12
-Release  : 6
+Release  : 7
 URL      : https://files.pythonhosted.org/packages/da/df/029966dd13982a043df910996bd3c0d0221b3add47fcd44fd8c3f44f3152/freezegun-0.3.12.tar.gz
 Source0  : https://files.pythonhosted.org/packages/da/df/029966dd13982a043df910996bd3c0d0221b3add47fcd44fd8c3f44f3152/freezegun-0.3.12.tar.gz
 Summary  : Let your Python tests travel through time
