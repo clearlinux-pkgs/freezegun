@@ -4,7 +4,7 @@
 #
 Name     : freezegun
 Version  : 1.1.0
-Release  : 27
+Release  : 28
 URL      : https://files.pythonhosted.org/packages/1f/3a/92d1dbf22d7227548a15900bbeff64ed8f43e9b1aeba3a5850ff4e439508/freezegun-1.1.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1f/3a/92d1dbf22d7227548a15900bbeff64ed8f43e9b1aeba3a5850ff4e439508/freezegun-1.1.0.tar.gz
 Summary  : Let your Python tests travel through time
@@ -57,15 +57,15 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1611155102
+export SOURCE_DATE_EPOCH=1635728824
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
 export NM=gcc-nm
-export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=4 "
-export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
+export CFLAGS="$CFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FCFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export FFLAGS="$FFLAGS -O3 -ffat-lto-objects -flto=auto "
+export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=auto "
 export MAKEFLAGS=%{?_smp_mflags}
 python3 setup.py build
 
